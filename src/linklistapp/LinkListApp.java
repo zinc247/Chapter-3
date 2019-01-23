@@ -15,12 +15,14 @@ public class LinkListApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        SinglyLinkedList list = new SinglyLinkedList();
-        //list.addFirst("Ahmad");
-        //list.addFirst("Fahd");
-        //list.addLast("Bilal");
-        //list.addLast("Saad");
-        //list.removeFirst();
+        //SinglyLinkedList list = new SinglyLinkedList();
+        //CircularlyLinkedList list = new CircularlyLinkedList();
+        DoublyLinkedList list = new DoublyLinkedList();
+        list.addFirst("Ahmad");
+        list.addFirst("Fahd");
+        list.addLast("Bilal");
+        list.addLast("Saad");
+        list.removeFirst();
         list.removeLast();
         list.printList();
     }
